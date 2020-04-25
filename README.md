@@ -12,7 +12,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Practice, practise, practise on bases 👩‍💻
+Practice, practice, practice on bases 👩‍💻
 
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
