@@ -26,7 +26,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(1, 1Fr);
   grid-template-rows: 35% 30% 30%;
-  margin: 15px auto 15px auto;
+  margin: 25px auto 0 auto;
   border-radius: 15px;
 }
 .intro_offer h2 {
@@ -118,8 +118,9 @@ a {
 @media screen and (min-width: 700px) {
   .container {
     grid-template-columns: repeat(2, 1Fr);
-    grid-template-rows: 35% 30% 30%;
+    grid-template-rows: 30% 30%;
     width: 90%;
+    margin: 100px auto 0 auto;
     
   }
   .box1 {
