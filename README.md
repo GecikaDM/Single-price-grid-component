@@ -20,4 +20,4 @@ Practice, practice, practice on bases 👩‍💻
 
 ## Project deploy with ZEIT now 
 
-The project is deploy with Zit now, see the link above in this repository.
+The project is deploy with Zeit now, see the link above in this repository.
