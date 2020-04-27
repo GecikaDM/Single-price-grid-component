@@ -11,27 +11,29 @@ html, body, main {
   font-size: 16px;
   background-color: hsl(204, 43%, 93%);
   overflow: hidden;
+  
 }
 h1, h2 {
-  padding-bottom: 1.2rem;
+  padding: 1.2rem 0;
   font-size: 1.2rem;
 }
 
 h1 {
   color: hsl(179, 62%, 43%);
 }
+
 /** 
 ** Mobile version from 320px
 **/
 
 .container {
+  overflow: hidden;
   width: 90%;
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1Fr);
-  grid-template-rows: 35% 30% 30%;
+  grid-template-rows: 290px 230px 290px;
   margin: 25px auto 0 auto;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .intro_offer h2 {
   color: hsl(71, 73%, 54%);
@@ -39,7 +41,7 @@ h1 {
 
 .intro_offer {
   color:  hsl(218, 22%, 67%);
-  padding: 1.5rem;
+  padding: 1.2rem;
   background-color: #fff;
 }
 .intro_offer p {
@@ -55,7 +57,6 @@ h1 {
 }
 .subscription h2 {
   color: #fff;
-  padding: 0;
 }
 .subscription_paragraph {
   color: #fff;
@@ -79,7 +80,7 @@ h1 {
   color: #fff;
   text-align: center;
   width: 250px;
-  margin: 0 auto;
+ /*  margin: 0 auto; */
 }
 a {
   text-decoration: none;
@@ -92,12 +93,10 @@ a {
 .about_us h2 {
   color: #fff;
 }
-.about_us-paragraph {
+.about_us-list {
   color: #fff;
-  width: 65%;
   opacity: 0.7;
-  word-spacing: 0.2rem;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 /** 
@@ -124,6 +123,16 @@ a {
  .container {
    width: 350px;
  }
+ .intro_offer {
+  padding: 2rem 2rem 2rem 3rem;
+}
+.subscription {
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+.about_us {
+  padding: 2rem 2rem 2rem 3rem;
+}
 }
 @media screen and (min-width: 500px) {
   .container {
@@ -133,9 +142,9 @@ a {
 @media screen and (min-width: 700px) {
   .container {
     grid-template-columns: repeat(2, 1Fr);
-    grid-template-rows: 30% 30%;
+    grid-template-rows: 250px 300px;
     width: 90%;
-    margin: 150px auto 0 auto;
+    margin: 160px auto 120px auto;
     
   }
   .box1 {
@@ -152,17 +161,7 @@ a {
     grid-row-start: 2;
   }
   h1, h2 {
-    padding-bottom: 2.2rem;
     font-size: 1.3rem;
-  }
-  .intro_offer {
-    padding: 2rem;
-  }
-  .subscription {
-    padding: 2rem;
-  }
-  .about_us {
-    padding: 2rem;
   }
   .attribution {
     padding: 1.5rem;
@@ -174,5 +173,8 @@ a {
   }
 .intro_offer-paragraph {
   width: 80%;
+  }
+.button_signup {
+  margin: 0;
   }
 }
